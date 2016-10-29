@@ -1,10 +1,12 @@
 'use scrict';
 var express = require('express'),
     http = require('http'),
+    conf = require('./conf'),
     app = express();
 
-http.createServer(app).listen(8080, function(){
-    console.log('Server listening on port ' + 8080);
+var server = http.createServer(app);
+server.listen(conf.get('port'), function(){
+    console.log('Server listening on port ' + conf.get('port'));
 });
 
 app.get('/', function(req, res) {
