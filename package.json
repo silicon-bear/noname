@@ -1,0 +1,19 @@
+{
+  "name": "noname",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silicon-bear/noname.git"
+  },
+  "author": "Vladislav Telichko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silicon-bear/noname/issues"
+  },
+  "homepage": "https://github.com/silicon-bear/noname#readme"
+}
